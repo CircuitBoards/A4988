@@ -49,3 +49,19 @@ The A4988 Stepper Motor Driver Carrier Board
 |        Imperial         |         Metric        |
 | :---------------------: | :-------------------: |
 |![](./Files/Imperial.png)|![](./Files/Metric.png)|
+
+---
+
+### Internal Wiring
+
+![](./Files/Wiring.png)
+
+| Resistors | Value | Capacitors | Value  |
+| :-------: | :---: | :--------: | :----: |
+| R1        |  68mΩ | C1         |  4.7μF |
+| R2        |       | C2         |  0.1μF |
+| R3        | 100kΩ | C3         |  0.1μF |
+| R4        |  10kΩ | C4         |  0.1μF |
+| R5        |  20kΩ | C5         |  0.1μF |
+| R6        | 100kΩ | C6         | 0.22μF |
+| R7        |     ~ | C7         | 0.22μF |
