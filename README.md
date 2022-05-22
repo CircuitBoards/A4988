@@ -1,38 +1,56 @@
+<div align = center>
+
 # A4988
-The A4988 Stepper Motor Driver Carrier Board
 
-![](./Files/Board.png)
+*The A4988 Stepper Motor Driver Carrier Board*
 
+<br>
+  
+![Board]
+
+<br>
+  
 ---
 
 *All specs are by default described for the*<br>
 *PCB only, without pin headers, heat sink, ..*
 
 ---
+  
+<br>
+<br>
 
-### General Specs
+## General Specs
+  
+<br>
 
-|                             | Imperial |  Metric  |
-|:---------------------------:|:--------:|:--------:|
-| **🡘**                      | 0.6"     | 15.24 mm |
-| **🡙**                       | 0.8"     | 20.32 mm |
-|![Weight](./Files/Weight.png)| 20.06 gr | 1.3 g    |
+|           | Imperial  |  Metric    |
+|:---------:|:---------:|:----------:|
+| **[🡘]**    | `0.6"`    | `15.24 mm` |
+| **[🡙]**     | `0.8"`    | `20.32 mm` |
+| ![Weight] | `20.06 gr`| `1.3 g`    |
 
----
+<br>
+<br>
+<br>
 
-### Power Specs
+## Power Specs
 
 ⚠ **The PCB does not have Reverse Voltage Protection**
 
-![](./Files/Power1.png)
+![Voltage]
 
 **Maximum continues current per phase.**
 
-![](./Files/Power2.png)
+![Current]
 
----
+<br>
+<br>
+<br>
 
-### Step Types
+## Step Types
+  
+<br>
 
 |  Type  | M3 | M2 | M1 | Dec |
 |:------:|:--:|:--:|:--:|:---:|
@@ -41,27 +59,54 @@ The A4988 Stepper Motor Driver Carrier Board
 | 1 /  4 |    |  X |    |  2  |
 | 1 /  8 |    |  X |  X |  3  |
 | 1 / 16 |  X |  X |  X |  7  |
+  
+<br>
+<br>
+<br>
 
----
-
-### Dimensions
+## Dimensions
+  
+<br>
 
 |        Imperial         |         Metric        |
 | :---------------------: | :-------------------: |
-|![](./Files/Imperial.png)|![](./Files/Metric.png)|
+| ![Dimensions Imperial]  | ![Dimensions Metric]  |
 
----
+<br>
+<br>
+<br>
 
-### Internal Wiring
+## Internal Wiring
 
-![](./Files/Wiring.png)
+<br>
+  
+![Wiring]
+  
+<br>
 
-| Resistors | Value | Capacitors | Value  |
-| :-------: | :---: | :--------: | :----: |
-| R1        |  68mΩ | C1         |  4.7μF |
-| R2        |       | C2         |  0.1μF |
-| R3        | 100kΩ | C3         |  0.1μF |
-| R4        |  10kΩ | C4         |  0.1μF |
-| R5        |  20kΩ | C5         |  0.1μF |
-| R6        | 100kΩ | C6         | 0.22μF |
-| R7        |     ~ | C7         | 0.22μF |
+| Resistors | Value   | Capacitors | Value    |
+| :-------: | :-----: | :--------: | :------: |
+| R1        |  `68mΩ` | C1         |  `4.7μF` |
+| R2        |         | C2         |  `0.1μF` |
+| R3        | `100kΩ` | C3         |  `0.1μF` |
+| R4        |  `10kΩ` | C4         |  `0.1μF` |
+| R5        |  `20kΩ` | C5         |  `0.1μF` |
+| R6        | `100kΩ` | C6         | `0.22μF` |
+| R7        |       ~ | C7         | `0.22μF` |
+  
+</div>
+
+<br>
+
+<!----------------------------------------------------------------------------->
+
+[Dimensions Imperial]: Files/Imperial.png
+[Dimensions Metric]: Files/Metric.png
+[Voltage]: Files/Power1.png
+[Current]: Files/Power2.png
+[Weight]: Files/Weight.png 'Weight'
+[Wiring]: Files/Wiring.png
+[Board]: Files/Board.png
+
+[🡘]: # 'Width'
+[🡙]: # 'Height'
